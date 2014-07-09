@@ -1,0 +1,31 @@
+{
+  "name": "node-nos-push-messages",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "twit": "1.1.15",
+    "node-notifier": "3.0.6"
+  },
+  "description": "Altijd. Overal. NOS. PushMessages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickurt/node-nos-push-messages.git"
+  },
+  "keywords": [
+    "nos",
+    "push",
+    "notifications",
+    "messages",
+    "twitter"
+  ],
+  "author": "Nickurt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickurt/node-nos-push-messages/issues"
+  },
+  "homepage": "https://github.com/nickurt/node-nos-push-messages"
+}
