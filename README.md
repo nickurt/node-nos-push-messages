@@ -7,7 +7,7 @@ NOS | PushNotifications
 npm install
 ```
 ### Configuratie
-* Verander index.js met de Twitter API settings
+* Verander config.json met de Twitter API settings en (evt) de 'andere' (NOS) Twitter accounts
 
 ### Run
 ```sh
