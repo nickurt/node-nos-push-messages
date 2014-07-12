@@ -16,6 +16,6 @@ var notifier = new Notification();
 stream.on('tweet', function (tweet) {
 	if( configuration.follow.indexOf(tweet.user.id) >= 0 ) {
   		console.log('DEBUG: '+ tweet.user.name + ': ' + tweet.text);
-  		notifier.notify({ title: tweet.user.name, icon: 'stock_person', e, message: tweet.text });
+  		notifier.notify({ title: tweet.user.name, icon: 'stock_person', message: tweet.text });
   	} 
 })
